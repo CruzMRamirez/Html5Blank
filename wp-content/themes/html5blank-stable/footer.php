@@ -1,6 +1,6 @@
 <!-- Footer -->
 					<section id="footer">
-						<div class="inner">
+						<div class="inner footerBox">
 							<h2 class="major">Get in touch</h2>
 							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
 							<form method="post" action="#">
@@ -41,12 +41,12 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<script src="wp-content/themes/html5blank-stable/assets/js/skel.min.js"></script>
+			<script src="wp-content/themes/html5blank-stable/assets/js/jquery.min.js"></script>
+			<script src="wp-content/themes/html5blank-stable/assets/js/jquery.scrollex.min.js"></script>
+			<script src="wp-content/themes/html5blank-stable/assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="wp-content/themes/html5blank-stable/assets/js/main.js"></script>
 
 	</body>
 </html>

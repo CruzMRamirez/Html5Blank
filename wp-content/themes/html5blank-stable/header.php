@@ -41,8 +41,8 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
+								<li><a href="http://192.168.33.10/">Home</a></li>
+								<li><a href="http://192.168.33.10/secondpage/">Generic</a></li>
 								<li><a href="elements.html">Elements</a></li>
 								<li><a href="#">Log In</a></li>
 								<li><a href="#">Sign Up</a></li>
