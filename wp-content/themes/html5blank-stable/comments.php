@@ -1,3 +1,6 @@
+<section id="one" class="wrapper alt spotlight style3">
+				<div class="inner">
+				<div class="content">
 <div class="comments">
 	<?php if (post_password_required()) : ?>
 	<p><?php _e( 'Post is password protected. Enter the password to view any comments.', 'html5blank' ); ?></p>
@@ -22,3 +25,6 @@
 <?php comment_form(); ?>
 
 </div>
+</div>
+</div>
+</section>
