@@ -20,17 +20,17 @@
 			$loopvar++;
 		} elseif($loopvar === 3){
 			$class_str = "alt";
-			$class2_str = "style1";
+			$class2_str = "style4";
 			$id_str = "one";
 			$loopvar++;
 		} elseif($loopvar === 4){
 			$class_str = "";
-			$class2_str = "style2";
+			$class2_str = "style5";
 			$id_str = "two";
 			$loopvar++;
 		} elseif($loopvar === 5){
 			$class_str = "alt";
-			$class2_str = "style3";
+			$class2_str = "style6";
 			$id_str = "three";
 			$loopvar==0;
 		}
@@ -47,14 +47,18 @@
 		<section id="<?php echo $id_str ?>" class="wrapper <?php echo $class_str; ?> spotlight <?php echo $class2_str; ?>">
 		<div class="inner">
 		
+
+
 		<!-- post thumbnail -->
 		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 			<a href="<?php the_permalink(); ?>" class="image" title="<?php the_title();?>">
 				<?php the_post_thumbnail(array(300,300));// Declare pixel size you need inside the array ?>
-				
 			</a>
 		<?php endif; ?>
 		<!-- /post thumbnail -->
+
+
+
 		<div class="content">
 		<!-- post title -->
 		<h2>
@@ -73,7 +77,9 @@
 		<?php html5wp_excerpt('html5wp_index'); // Build your custom callback length in functions.php ?>
 		<br>
 		<?php edit_post_link(); ?>
-
+				</div>
+				</div>
+				</section>
 	</article>
 	<!-- /article -->
 
@@ -86,7 +92,5 @@
 		<h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
 	</article>
 	<!-- /article -->
-				</div>
-				</div>
-				</section>
+				
 <?php endif; ?>
